@@ -23,3 +23,15 @@ dist-ssr
 *.sln
 *.sw?
 .vite
+# Maven (Node and npm are installed under target/ by the build)
+target/
+
+# Claude (unpacked build standards)
+.claude
+# BEGIN ike-managed
+# IKE local state (never committed)
+.ike/vcs-state
+# END ike-managed
+
+# ike:* goal reports
+ike꞉*.md

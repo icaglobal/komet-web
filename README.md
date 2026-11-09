@@ -10,6 +10,14 @@ npm run dev
 ```
 The URL will be displayed to the console
 
+## Building with Maven
+```
+./mvnw verify
+```
+Installs Node under `target/` (no system Node needed), runs `npm ci`, then `npm run build`,
+which type-checks and bundles into `dist/`. A build of the Komet working set (ike-komet-wsr)
+runs the same.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
